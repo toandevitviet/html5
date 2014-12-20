@@ -25,7 +25,7 @@ function drawNumerals(){
 		canvas.width/2 + Math.cos(angle)*(HAND_RADIUS)-numeralWidth/2,
 		canvas.height/2 + Math.sin(angle)*(HAND_RADIUS)+
 		FONT_HEIGHT/3);
-		context.strokeStyle = 'blue'; 
+		// context.strokeStyle = 'blue'; 
 	});
 }
 
@@ -33,7 +33,7 @@ function drawCenter(){
 	context.beginPath();
 	context.arc(canvas.width/2, canvas.height/2,5,0, Math.PI*2,true);
 	context.fill();
-	context.strokeStyle = 'red'; 
+	// context.strokeStyle = 'red'; 
 }
 
 function drawHand(loc, isHour){
